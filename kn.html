@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Menu</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/originals/df/fc/a7/dffca74282382587f9b3d221a5c6593c.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .menu-section {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 200px;
+            border-radius: 10px;
+            max-width: 1000px;
+            text-align: center;
+            overflow: hidden;
+            opacity: 0.9;
+        }
+
+        .dish {
+            margin-bottom: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .dish:hover {
+            transform: scale(1.05);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        h2 {
+            color: #ffa500;
+            text-shadow: 2px 2px 4px #000;
+            font-size: 3em;
+           
+        }
+
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5em;
+            transition: color 0.3s;
+            background-color: black;
+        }
+
+        .back-button:hover {
+            color: #ffa500;
+        }
+
+        .dish span {
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .menu-section {
+            animation: fadeIn 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="hotel.html" class="back-button">&larr; Back</a>
+    <div class="menu-section">
+        <h2>Featured Dishes</h2>
+        <div class="dish">
+            <span>Signature Pasta</span> - Rs 250.00
+        </div>
+        <div class="dish">
+            <span>Grilled Salmon</span> - Rs 300.00
+        </div>
+        <div class="dish">
+            <span>Vegetarian Stir-Fry</span> - Rs 245.00
+        </div>
+        <div class="dish">
+            <span>Ribeye Steak</span> - Rs 435.00
+        </div>
+        <div class="dish">
+            <span>Chef's Special Dessert</span> - Rs 300.00
+        </div>
+    </div>
+</body>
+
+</html>

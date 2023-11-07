@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Security Information</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(34, 36, 146, 0.725), rgba(34, 36, 146, 0.725)), url('https://images.pexels.com/photos/1901388/pexels-photo-1901388.jpeg?auto=compress&cs=tinysrgb&w=600');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: left;
+            position: relative;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: -230px;
+            text-decoration: none;
+            color: #ffa500;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+
+        .back-button:hover {
+            color: #fff;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #ffa500;
+            text-shadow: 2px 2px 4px #000;
+            animation: fadeInDown 1s;
+        }
+
+        p, ul {
+            margin-bottom: 15px;
+            animation: fadeIn 1s;
+            color: #ccc;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        p:hover, ul:hover {
+            transform: scale(1.05);
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="hotel.html" class="back-button">&larr; Back</a>
+    <h2>Key Card Access</h2>
+    <p>Our hotel employs a state-of-the-art key card access system, ensuring that only registered guests have entry to their designated rooms. Each key card is programmed to provide access to specific areas, adding an extra layer of security.</p>
+
+    <h2>Privacy and Confidentiality</h2>
+    <p>We take privacy and confidentiality seriously. All personal information provided during the booking process is kept strictly confidential. Our hotel complies with data protection laws, and your information will never be shared with third parties without your consent.</p>
+
+    <h2>Fire Safety Procedures</h2>
+    <p>The safety of our guests is of utmost importance. In the event of a fire, our hotel is equipped with advanced fire detection and suppression systems. Emergency exits are clearly marked, and evacuation plans are provided in each room. Please familiarize yourself with the nearest exits and follow our staff's instructions in case of an emergency.</p>
+</body>
+
+</html>
